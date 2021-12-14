@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/lblQuestion"
+         />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Option 1"
+        android:layout_below="@+id/lblQuestion"
+        android:id="@+id/btnOption1"
+></Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Option 2"
+        android:layout_below="@+id/btnOption1"
+        android:id="@+id/btnOption2"
+        ></Button>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Option 3"
+        android:layout_below="@+id/btnOption2"
+        android:id="@+id/btnOption3"
+
+        ></Button>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Option 4"
+        android:layout_below="@+id/btnOption3"
+        android:id="@+id/btnOption4"
+        ></Button>
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Next Question"
+        android:layout_below="@+id/btnOption4"
+        android:id="@+id/btnNextQuestion"
+        android:visibility="invisible"
+        ></Button>
+</RelativeLayout>
